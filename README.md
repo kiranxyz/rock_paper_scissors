@@ -1,42 +1,33 @@
-**Fun Command-Line Challenges with Node.js 🚀**
+# CLI Games & Utilities – Node.js & TypeScript 🚀
 
-**Challenge 1 – Rock Paper Scissors**
-Goal: Play rock-paper-scissors against the computer.
+A collection of **command-line programs** demonstrating **Node.js** and **TypeScript** skills.  
 
-Run command:
+### Games & Utilities
+1. **Rock Paper Scissors** – Play against the computer with real-time input and outcome.  
+2. **Pig Latin Translator** – Convert words/phrases into Pig Latin with input validation.  
+3. **Caesar Cipher** – Encrypt or decrypt text using a numeric shift.  
 
+### Key Features
+- **Input validation** and **error handling** for robust program behavior.  
+- **Logic and edge-case testing** to ensure correctness.  
+- Modular and maintainable **code structure**.  
+- Fully **solo-developed**, showcasing **independent coding and problem-solving skills**.  
+
+### Tech Stack
+- **Node.js**, **TypeScript**  
+- **Tools:** VS Code, Git, Terminal
+
+### Sample Usage
+**Rock Paper Scissors:**  
+```bash
 node rockPaperScissors.js rock
+# You: rock | Computer: scissors → You win! 🎉
 
-Sample outputs:
+Pig Latin Translator:
+node pigLatinTranslator.js "Pig Latin is fun"
+# → Translated Phrase: igPay atinLay isway unfay
 
-You: rock | Computer: scissors → You win! 🎉
-You: rock | Computer: paper → You lose 😢
+Caesar Cipher:
+node caesarCipher.js "hello world" 3
+# → Ciphered Text: khoorzruog
 
-**Challenge 2 – Pig Latin Translator**
-Goal: Translate words/phrases into Pig Latin.
-
-Run commands & outputs:
-
-node pigLatinTranslator.js Happy
-→ 📜 Translated Phrase: appyHay
-
-node pigLatinTranslator.js Pig Latin is hard to speak
-→ 📜 Translated Phrase: igPay atinLay isway ardhay otay eakspay
-
-Error case:
-
-node pigLatinTranslator.js
-→ ❌ Please try entering the phrase again :(
-
-**Challenge 3 – Caesar Cipher**
-Goal: Encrypt or decrypt a phrase using Caesar Cipher shift.
-
-Run commands & outputs:
-
-node caesarCipher.js hello world 3
-→ 🔐 Ciphered Text: khoorzruog
-
-node caesarCipher.js hello world -3
-→ 🔐 Ciphered Text: ebiiltloia
-
-Logic: Each letter shifts by a number (+3 forward, -3 backward).
